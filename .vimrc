@@ -9,7 +9,7 @@ set selectmode=mouse,key
 " 启动的时候不显示那个援助索马里儿童的提示
 set shortmess=atI
 "Taglist
-let Tlist_Auto_Open=1
+"let Tlist_Auto_Open=1
 set tags=tags
 set tags=tags;/
 set autochdir
@@ -100,7 +100,8 @@ nnoremap <leader>ft vatzf
 nnoremap <leader>v v`]
 
 "使用,w来垂直分割窗口，这样可以同时查看多个文件,如果想水平分割则<c-w>s
-nnoremap <leader>w <c-w>v<c-w>l
+"nnoremap <leader>w <c-w>v<c-w>l
+nnoremap <leader>w <c-w>w
 "nnoremap <leader>wc <c-w>c
 "nnoremap <leader>ww <c-w>w
 
