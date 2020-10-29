@@ -178,6 +178,11 @@ Bundle 'ctrlp.vim'
 Bundle 'EasyMotion'
   let g:EasyMotion_leader_key = '<Leader><leader>'
 
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeGlyphReadOnly = "RO"
+
 Bundle 'The-NERD-tree'
   "设置相对行号
   nmap <leader>nt :NERDTree<cr>:set rnu<cr>
